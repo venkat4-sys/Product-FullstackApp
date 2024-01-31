@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Information and Order Form</title>
+  <link rel="stylesheet" href="productinfo.css">
+</head>
+<body>
+    
+  <form>
+    <div id="productMessage"></div>
+    <h2>Add products</h2>
+    ProductName:
+    <input type="text" id="ProductName"/>
+
+    productPrice:
+    <input type="number" id="ProductPrice"/>
+
+    Quantity:
+    <input type="number" id="ProductQuantity"/>
+    
+    <input type="button" value="Submit" onclick="addProduct()">
+    <a href="productDetails.html">View Products</a>
+  </form>
+   <script src="productinfo.js"></script>
+</body>
+</html>
